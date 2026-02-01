@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.social-links{
+    background-color: hsl(0, 0%, 12%);
+    width: 327px;
+    padding: 16px;
+    border-radius: 10px;
+    text-align: center;
+}
+.avatar img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 20px;
+}
+.personal-information h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.personal-information h2{
+    color: hsl(75, 94%, 57%);
+    font-size: 11px;
+    margin-bottom: 23px;
+}
+.personal-information p{
+    color: hsl(0, 9%, 79%);
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.link-group a{
+  display: block;              
+  padding: 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  color:white;
+  font-weight: 600;
+  text-align: center;
+  background: hsl(0, 0%, 20%);
+  transition: all 0.2s ease;
+  font-size: 12px;
+    
+}
+.link-group {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px;
+}
